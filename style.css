@@ -1,0 +1,31 @@
+html
+{
+    background-color: #222222;
+}
+body
+{
+    color: #eeeeee;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    text-align: center;
+}
+input, button
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type="text"]
+{
+    background-color: #444444;
+    border: none;
+}
+button
+{
+    background-color: #666666;
+    border: #ffffff 30px;
+    color: #dddddd
+}

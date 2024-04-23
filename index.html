@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+</head>
+<body>
+    <h1>Перевод чисел между различными системами счисления</h1>
+    <form>
+        <input type="text" id="num" placeholder="Исходное число">
+        <input type="text" id="base" placeholder="Основание исходного числа (не менее 2 и не более 36)">
+        <input type="text" id="base2" placeholder="Основание результата (не менее 2 и не более 36)">
+        <button type="button" onclick="convert()">Перевести</button>
+        <h4 id="res">Результат: </h4>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
